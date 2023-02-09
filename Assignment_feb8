@@ -1,0 +1,33 @@
+Sol1:-
+        Abstraction is feature of object oriented programming language.It is used to hide information and variables of a  
+        class from outside world by making it private.it is used to make methods prototype only.
+ 
+       Example:- class class1:
+                            def shape():
+                                 pass  
+                       class class2(class1):
+                             def rectangle(self,length,breadth):
+                                  print(“Area of rectangle is :”,length*breadth)
+                       class class3(class1):
+                             def triangle(self,length,height):
+                                print(“Area of triangle is :”,½(*length*height))
+                      obj1=class2(2,3)
+                         obj1.rectangle()
+                     obj2=class3(2,3)
+                        obj2.triangle()
+                         
+                            OUTPUT:-
+                                              Area of rectangle is 6
+                                             Area of triangle is 3
+
+                       
+Sol 2:-Both Abstraction and Encaptulation is is used to hide variables and methods from outer the class.
+          But the only difference is that user can set and set data in Encaptulated class by change or set data method 
+         Which is publicly defined by that Encaptulated class.
+Sol 3:-
+          The ‘abc’ module in python is provides infrastructure for defining custom abstract base classes.
+Sol4:-Data abstraction is achieved by importing abc module and declaring class and method as abstraction class and 
+         Abstract method by the keyword abstract.
+Sol 5:-We can create instance of a an abstract class as follows
+           Object name=classname()
+      
